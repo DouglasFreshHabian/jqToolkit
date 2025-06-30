@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/script-Bash-blue?logo=gnu-bash" alt="Bash">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
-</p>
 
 <p align="center">
   <img src="https://github.com/DouglasFreshHabian/jqToolkit/blob/main/Assets/Tux-Json.png?raw=true" alt="My Image" width="400">
