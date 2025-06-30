@@ -1,0 +1,24 @@
+---
+syntax: bash
+tags: [ jq, personal ]
+---
+
+{jq} - Command-line JSON processor
+
+# Pretty print (Clean Display):
+cat sample_data.json | jq
+
+# Access the value for users:
+jq '.users[] | select(.active == true)' sample_data.json
+
+# Extract emails of admins:
+jq -r '.users[] | select(.admin == true) | .email' sample_data.json
+
+# Get usernames from US users:
+jq -r '.users[] | select(.country == "US") | .username' sample_data.json
+
+# Parse API Output:
+curl -s https://api.github.com/users/octocat | jq '.public_repos'
+
+# Check Video Metadata for Analysis:
+yt-dlp -j https://youtu.be/your-video-id | jq
