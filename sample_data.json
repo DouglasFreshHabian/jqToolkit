@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Fresh",
+      "username": "douglas",
+      "active": true,
+      "admin": true,
+      "country": "US",
+      "email": "fresh@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Maya",
+      "username": "maya2025",
+      "active": false,
+      "admin": false,
+      "country": "CA",
+      "email": "maya@example.ca"
+    },
+    {
+      "id": 3,
+      "name": "Leo",
+      "username": "leo_hack",
+      "active": true,
+      "admin": false,
+      "country": "UK",
+      "email": "leo@example.co.uk"
+    }
+  ],
+  "meta": {
+    "generated": "2025-06-30T22:00:00Z",
+    "version": "1.0"
+  }
+}
